@@ -1,0 +1,26 @@
+/******************************************************************************
+ * Site:    SG.hu - Informatikai és Tudományos Hírmagazin
+ * URL:     https://sg.hu/
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(sg.hu) {
+    .cc-window,
+    #fb-root,
+    #header,
+    #sidebar,
+    #related-articles,
+    #article-social-plugins,
+    #forum-posts,
+    #footer {
+        display: none !important;
+    }
+
+    #content {
+        padding: 0 !important;
+    }
+
+    #content article {
+        width: auto !important;
+    }
+}
