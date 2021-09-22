@@ -1,0 +1,17 @@
+/******************************************************************************
+ * Site:    Example Website
+ * URL:     https://example.com/
+ * Author:  NAME <EMAIL>, YEAR.
+ * License: CC-BY-SA
+ *****************************************************************************/
+@-moz-document domain(example.com) {
+    body > header,
+    .ads,
+    body > footer {
+        display: none !important;
+    }
+
+    main {
+        width: inherit !important;
+    }
+}
