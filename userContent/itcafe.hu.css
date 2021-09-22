@@ -1,0 +1,33 @@
+/******************************************************************************
+ * Site:    IT Cafe.hu - Informatika Pont
+ * URL:     https://itcafe.hu/
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(itcafe.hu) {
+    .pace,
+    #head,
+    header,
+    #header-padding,
+    #ssearch,
+    #navi,
+    #network,
+    .path,
+    .patht,
+    #right,
+    #foot,
+    #thanks,
+    #cookie-accept,
+    .bar,
+    .relcnt,
+    .content ul.content-info,
+    .content ul.content-companies,
+    .content-list-detailed
+     {
+        display: none !important;
+    }
+
+    #center {
+        width: auto !important;
+    }
+}
