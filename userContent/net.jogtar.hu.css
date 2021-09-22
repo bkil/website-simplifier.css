@@ -1,0 +1,20 @@
+/******************************************************************************
+ * Site:    Wolters Kluwer Hatályos Jogszabályok Gyűjteménye - CompLex
+ * URL:     https://net.jogtar.hu
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(net.jogtar.hu) {
+    #mainHead,
+    #breadcrumbs,
+    .bannercontainer,
+    footer,
+    #backtotop {
+        display: none !important;
+    }
+
+    body.space-header.space-breadcrumb,
+    body.space-header {
+        padding-top: 0 !important;
+    }
+}
