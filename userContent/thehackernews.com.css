@@ -1,0 +1,35 @@
+/******************************************************************************
+ * Site:    The Hacker News
+ * URL:     https://thehackernews.com/
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(thehackernews.com) {
+    body > header,
+    body > nav,
+    body > aside,
+    body > .google,
+    .ad_two,
+    .note-b,
+    .float-share,
+    .sharebelow,
+    .mobile-share,
+    .tags,
+    aside.right-box,
+    .comments,
+    body > button,
+    body > .below-post,
+    body > .deals,
+    #email-outer,
+    body > footer,
+    .google-revocation-link-placeholder {
+        display: none !important;
+    }
+
+    @media only screen and (min-width: 850px),
+    @media only screen and (min-width: 1200px) {
+        .left-box {
+            width: inherit !important;
+        }
+    }
+}
