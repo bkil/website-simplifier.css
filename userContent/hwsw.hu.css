@@ -1,0 +1,30 @@
+/******************************************************************************
+ * Site:    HWSW Informatikai Hírmagazin
+ * URL:     https://www.hwsw.hu/
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(hwsw.hu) {
+    body > header,
+    article .header,
+    article footer,
+    article + aside,
+    .ab-block,
+    .from-homepage,
+    .site-footer {
+        display: none !important;
+    }
+
+    body {
+        padding-bottom: 0 !important;
+    }
+
+    article {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .article-detail .article-title::after {
+        background-color: white !important;
+    }
+}
