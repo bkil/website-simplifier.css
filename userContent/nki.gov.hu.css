@@ -1,0 +1,29 @@
+/******************************************************************************
+ * Site:    Nemzeti Kibervédelmi Intézet
+ * URL:     https://nki.gov.hu/
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(nki.gov.hu) {
+    body > header,
+    body > footer,
+    #banner .banner-nav,
+    #combinedtaxonomiestagcloudwidget-9,
+    #content .full-row col-md-4,
+    #ess-main-wrapper {
+        display: none !important;
+    }
+
+    #banner {
+        background: none !important;
+        padding: 0 !important;
+    }
+
+    #content .full-row {
+        padding: 0 !important;
+    }
+
+    #content .full-row col-md-8 {
+        width: 100% !important;
+    }
+}
