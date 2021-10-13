@@ -1,0 +1,27 @@
+/******************************************************************************
+ * Site:    Telex - Internetes Hírportál
+ * URL:     https://telex.hu/
+ * Author:  Úr Balázs <balazs at urbalazs dot hu>, 2021.
+ * License: CC-BY-SA-4.0
+ *****************************************************************************/
+@-moz-document domain(telex.hu) {
+    .navigation,
+    .sidebar-container,
+    .sidebar_container_,
+    .top-shr,
+    #telexline,
+    .telex-anniversary,
+    .recommendation,
+    .telex-support,
+    footer {
+        display: none !important;
+    }
+
+    .main-top > div:first-of-type {
+        padding-top: 0 !important;
+    }
+
+    .article_container_ {
+        width: auto !important;
+    }
+}
